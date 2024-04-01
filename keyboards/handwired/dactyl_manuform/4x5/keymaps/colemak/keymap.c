@@ -133,7 +133,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_NAV] = LAYOUT(
       ____, ____,  KC_MU, ____,  KC_VOLU,                       ____,    KC_PGDN, KC_PGUP, ____,     ____,
       ____, KC_ML, KC_MD, KC_MR, KC_MUTE,                       KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, ____,
-      ____, ____,  ____,  ____,  KC_VOLD,                       KC_MWL,  KC_MB1,  KC_MB2,  KC_MB3,   KC_MWR,
+      ____, ____,  ____,  ____,  KC_VOLD,                       KC_MWL,  KC_MB1,  KC_MB3,  KC_MB2,   KC_MWR,
             ____,  ____,                                                          KC_MWD,  KC_MWU,
                                        ____, ____,  ____, ____,
                                        ____, ____,  ____, ____,
