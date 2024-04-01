@@ -30,7 +30,12 @@ enum layers{
 #define KC_MU KC_MS_UP
 #define KC_MD KC_MS_DOWN
 #define KC_MB1 KC_MS_BTN1
-#define KC_MB2 KC_MS_BTN1
+#define KC_MB2 KC_MS_BTN2
+#define KC_MB3 KC_MS_BTN3
+#define KC_MWD KC_MS_WH_DOWN
+#define KC_MWU KC_MS_WH_UP
+#define KC_MWL KC_MS_WH_LEFT
+#define KC_MWR KC_MS_WH_RIGHT
 
 // TODO: update layers comments
 
@@ -128,8 +133,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_NAV] = LAYOUT(
       ____, ____,  KC_MU, ____,  KC_VOLU,                       ____,    KC_PGDN, KC_PGUP, ____,     ____,
       ____, KC_ML, KC_MD, KC_MR, KC_MUTE,                       KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, ____,
-      ____, ____,  ____,  ____,  KC_VOLD,                       KC_SLSH, KC_BSLS, KC_QUES, KC_PIPE,  ____,
-            ____,  ____,                                                          KC_MB1,  KC_MB2,
+      ____, ____,  ____,  ____,  KC_VOLD,                       KC_MWL,  KC_MB1,  KC_MB2,  KC_MB3,   KC_MWR,
+            ____,  ____,                                                          KC_MWD,  KC_MWU,
                                        ____, ____,  ____, ____,
                                        ____, ____,  ____, ____,
                                        ____, ____,  ____, ____
