@@ -51,12 +51,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * +------+------+------+-------------+                             +-------------+------+------+------+
      *        |  [   |   ]  |                                                         |   -  |   ;  |
      *        +-------------+-------------+                             +-------------+-------------+
-     *                      |Lshift|Space |                             |Bkspc |Rshift|
+     *                      |Lshift|Upper |                             |Lower |Rshift|
+     *                      |   +  |  +   |                             |  +   |  +   |
+     *                      |  ESC |Space |                             |Bkspc |Delete|
      *                      +-------------+                             +-------------+
      *                                    +-------------+ +-------------+
-     *                                    | LCTL | Esc  | | Enter| RCTL |
+     *                                    |      | Nav  | |Upper |      |
+     *                                    | LCTL |  +   | |  +   | RCTL |
+     *                                    |      | TAB  | |Enter |      |
      *                                    |------+------| |------+------|
-     *                                    | LWin | LAlt | | RAlt | RWin |
+     *                                    | LAlt | LWin | | LWin | LAlt |
      *                                    +-------------+ +-------------+
      */
     [_ALPHAS] = LAYOUT(
